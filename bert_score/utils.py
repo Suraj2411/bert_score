@@ -38,6 +38,7 @@ lang2model.update(
 
 
 model2layers = {
+    "google/flan-t5-xl" : 10,
     "google/flan-t5-xxl" : 10,
     "bert-base-uncased": 9,  # 0.6925188074454226
     "bert-large-uncased": 18,  # 0.7210358126642836
