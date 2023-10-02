@@ -38,12 +38,13 @@ lang2model.update(
 
 
 model2layers = {
+    "google/flan-t5-xxl" : 10,
     "bert-base-uncased": 9,  # 0.6925188074454226
     "bert-large-uncased": 18,  # 0.7210358126642836
     "bert-base-cased-finetuned-mrpc": 9,  # 0.6721947475618048
     "bert-base-multilingual-cased": 9,  # 0.6680687802637132
     "bert-base-chinese": 8,
-    "roberta-base": 10,  # 0.706288719158983
+    #"roberta-base": 10,  # 0.706288719158983
     "roberta-large": 17,  # 0.7385974720781534
     "roberta-large-mnli": 19,  # 0.7535618640417984
     "roberta-base-openai-detector": 7,  # 0.7048158349432633
